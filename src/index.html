@@ -1,0 +1,852 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <title>Home / X</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black">
+    <div class=" flex  mx-auto container ">
+        <div class="first xl:w-[70%] invert h-screen sticky top-0 w-[20%]">
+            <div class="logo flex justify-center space-y-16 relative xl:right-[70px] m-[17px] ml-[30px] ">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk w-7 ">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="sidebar flex justify-center">
+                <ul class="text-xl space-y-2  font-bold w-1/2 ">
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg><span class="hidden xl:block">Home</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg><span class="hidden xl:block">Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                        </svg> <span class="hidden xl:block">Notification</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                        </svg> <span class="hidden xl:block">Message</span>
+                    </li>
+                    <li
+                        class=" justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer xl:flex hidden">
+                        <svg width="88" height="33" viewBox="0 0 88 33" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="opacity-90 hover:opacity-100 fill-black dark:fill-white max-w-full [&amp;>path]:hidden [&amp;>#mark]:block [&amp;>#furigana]:opacity-60 [&amp;>#subtitle]:opacity-60 sm:[&amp;>path]:hidden ">
+                            <path
+                                d="M76.4462 24.7077V8.41584H79.0216V19.1679L84.4685 12.9109H87.5908L82.6908 18.2731L87.6364 24.7077H84.5596L80.5539 19.1788L79.0216 19.1679V24.7077H76.4462Z"
+                                fill="currentColor" class="hidden xl:block"></path>
+                            <path
+                                d="M68.6362 24.9815C64.8074 24.9815 62.7335 22.2662 62.7335 18.7979C62.7335 15.3068 64.8074 12.6143 68.6362 12.6143C72.4878 12.6143 74.5389 15.3068 74.5389 18.7979C74.5389 22.2662 72.4878 24.9815 68.6362 24.9815ZM65.4228 18.7979C65.4228 21.4904 66.8813 22.8366 68.6362 22.8366C70.4139 22.8366 71.8497 21.4904 71.8497 18.7979C71.8497 16.1054 70.4139 14.7363 68.6362 14.7363C66.8813 14.7363 65.4228 16.1054 65.4228 18.7979Z"
+                                fill="currentColor" class="hidden xl:block"></path>
+                            <path d="M55.5659 24.7077V14.782L57.731 12.9109H62.3347V15.1014H58.1413V24.7077H55.5659Z"
+                                fill="currentColor" class="hidden xl:block"></path>
+                            <path
+                                d="M45.7187 25.009C40.8101 25.009 37.8834 21.4448 37.8834 16.5846C37.8834 11.6788 40.9146 8.02795 45.8145 8.02795C49.6433 8.02795 52.4466 9.99027 53.1075 13.6411H50.1675C49.7345 11.5647 48.0024 10.401 45.8145 10.401C42.282 10.401 40.7322 13.4586 40.7322 16.5846C40.7322 19.7106 42.282 22.7454 45.8145 22.7454C49.1875 22.7454 50.6689 20.3039 50.7828 18.2731H45.7006V15.9105H53.381L53.3684 17.1457C53.3684 21.7359 51.4978 25.009 45.7187 25.009Z"
+                                fill="currentColor" class="hidden xl:block"></path>
+                            <path
+                                d="M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973 13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581 26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304 25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637 7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964 0.5L29.1113 5.09055V5.07631L13.2343 21.0436"
+                                fill="currentColor" id="mark"></path>
+                            <path
+                                d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                fill="currentColor" id="mark"></path>
+                        </svg>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg> <span class="hidden xl:block">Communities</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk w-7 ">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg> <span class="hidden xl:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                        </svg><span class="hidden xl:block">Verified Orgs</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg> <span class="hidden xl:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 hover:bg-gray-100 py-2 px-4 hover:rounded-full w-fit cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg><span class="hidden xl:block">More</span>
+                    </li>
+                    <li>
+                        <div
+                            class="bg-black  rounded-4xl xl:flex justify-center items-center text-white h-14 w-60 text-[18px] font-bold hidden cursor-pointer">
+                            Post
+                        </div>
+                        <div
+                            class="h-9 w-9 bg-white rounded-full  invert flex justify-center items-center xl:hidden relative left-[10px] cursor-pointer">
+                            <svg viewBox="0 0 42 42" class="size-9 relative top-[7px] left-[7px]" fill="currentColor">
+                                <path
+                                    d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z" />
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer justify-end my-8 mx-7 xl:flex hidden">
+                <div class="follow flex justify-between items-center hover:bg-black w-2/3 ">
+                    <div class="nfl flex gap-3 items-center ">
+                        <div class="image w-10 h-10 ">
+                            <img src="https://pbs.twimg.com/profile_images/1944335012444209152/3OmOwiuk_bigger.png"
+                                alt="img" class="rounded-full">
+                        </div>
+                        <div class="NFL flex-row">
+                            <h1> shivam shaurya </h1>
+                            <h1 class="text-gray-900"> @shauryashivam00 </h1>
+                        </div>
+                    </div>
+                    <div class="Fw bg-white text-black text-[25px] flex justify-center items-center ">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second w-full border-l-1 border-r-1 border-l-[#2a2a2a] border-r-[#2a2a2a] mr-20 xl:mr-0">
+            <div class="main flex  border-[1px] border-[#2a2a2a] sticky top-0  bg-black opacity-90">
+                <div class="head text-white w-1/2 flex  justify-center hover:bg-[#181818] p-4 relative ">
+                    Foryou
+                    <div class="blue bg-blue-400 w-[60px] h-1 absolute bottom-0 rounded-full"></div>
+                </div>
+                <div class="head text-white w-1/2 flex justify-center hover:bg-[#181818] p-4">
+                    Following
+                </div>
+            </div>
+            <div class="happening flex">
+                <div class="shivam w-10 m-3 cursor-pointer">
+                    <img src="https://pbs.twimg.com/profile_images/1944335012444209152/3OmOwiuk_bigger.png"
+                        class="rounded-full">
+                </div>
+                <div class="happen text-[#4c4c4c] text-xl my-4 w-[85%]">
+                    <span>What’s happening?</span>
+                    <div class="everyone text-blue-500 flex items-center text-xs font-bold gap-1 my-3">
+                        <div class="globe">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m6.115 5.19.319 1.913A6 6 0 0 0 8.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 0 0 2.288-4.042 1.087 1.087 0 0 0-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 0 1-.98-.314l-.295-.295a1.125 1.125 0 0 1 0-1.591l.13-.132a1.125 1.125 0 0 1 1.3-.21l.603.302a.809.809 0 0 0 1.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 0 0 1.528-1.732l.146-.292M6.115 5.19A9 9 0 1 0 17.18 4.64M6.115 5.19A8.965 8.965 0 0 1 12 3c1.929 0 3.716.607 5.18 1.64" />
+                            </svg>
+                        </div>
+                        <span>Everyone can repply</span>
+                    </div>
+                    <div class="line bg-[#4c4c4c] w-full h-[1px] my-2 "></div>
+                    <div class="logos flex justify-between items-center">
+                        <div class=" text-blue-500 flex items-center hover:cursor-pointer my-2 ">
+                            <div
+                                class="h-[40px] w-[40px] flex items-center justify-center hover:bg-[#031018] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="h-[40px] w-[40px] flex items-center justify-center hover:bg-[#031018] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12.75 8.25v7.5m6-7.5h-3V12m0 0v3.75m0-3.75H18M9.75 9.348c-1.03-1.464-2.698-1.464-3.728 0-1.03 1.465-1.03 3.84 0 5.304 1.03 1.464 2.699 1.464 3.728 0V12h-1.5M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="h-[40px] w-[40px] flex items-center justify-center hover:bg-[#031018] rounded-full">
+                                <svg viewBox="0 0 40 40" stroke-width="1.5" fill="none" stroke="currentColor"
+                                    class="size-6" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973 13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581 26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304 25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637 7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964 0.5L29.1113 5.09055V5.07631L13.2343 21.0436"
+                                        fill="currentColor" id="mark"></path>
+                                    <path
+                                        d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                        fill="currentColor" id="mark"></path>
+                                </svg>
+                            </div>
+                            <div
+                                class="h-[40px] w-[40px] flex items-center justify-center hover:bg-[#031018] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="h-[40px] w-[40px] flex items-center justify-center hover:bg-[#031018] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-[#787a7a] w-[70px]  rounded-4xl flex justify-center items-center text-black h-9 text-[18px] font-bold">
+                            Post
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="line bg-[#4c4c4c] w-full h-[1px]  "></div>
+            <div class="post hover:bg-[#35343427]">
+                <div class="flex items-center">
+                    <div class="w-10 m-3">
+                        <img src="	https://pbs.twimg.com/profile_images/1930811170144858112/fOsrmI4b_bigger.jpg" alt=""
+                            class="rounded-full">
+                    </div>
+                    <div class="flex justify-between w-[85%] cursor-pointer">
+                        <div>
+                            <span class="text-white font-bold">Bhavana pandey</span>
+                            <span class="text-[#999797c2] text-xl">@Bhavana562 . 11h</span>
+                            <div class="text-white font-bold">imagine owning a coffee shop like this 😍♥️</div>
+                        </div>
+                        <div class="h-[60px] w-[60px] flex items-center justify-center text-[#999797c2] ">
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg viewBox="0 0 40 40" stroke-width="1.5" fill="none" stroke="currentColor"
+                                    class="size-6  hover:text-blue-400   xmlns=" http://www.w3.org/2000/svg" ">
+                                <path
+                                d=" M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973
+                                    13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581
+                                    26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304
+                                    25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637
+                                    7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964
+                                    0.5L29.1113 5.09055V5.07631L13.2343 21.0436" fill="currentColor" id="mark"></path>
+                                    <path
+                                        d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                        fill="currentColor" id="mark"></path>
+                                </svg>
+                            </div>
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 hover:text-blue-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img ml-10 mr-4">
+                    <img src="https://pbs.twimg.com/media/GwHCoYqW0AMJ0KZ?format=jpg&name=small" alt=""
+                        class="rounded-2xl">
+                    <div class="million text-[#999797c2] flex justify-between my-2 items-center cursor-pointer">
+                        <div class="flex hover:text-blue-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                                </svg>
+                            </div>
+                            <span>313</span>
+                        </div>
+                        <div class="flex hover:text-green-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            <span>1.4K</span>
+                        </div>
+                        <div class="flex hover:text-pink-900 items-center">
+                            <div
+                                class="hover:bg-[rgba(255,0,122,0.1)] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                            </div>
+                            <span>18K</span>
+                        </div>
+                        <div class="flex hover:text-yellow-500 items-center">
+                            <div
+                                class="hover:bg-[#fff20030] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                                </svg>
+                            </div>
+                            <span>1M</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line bg-[#4c4c4c] w-full h-[0.5px]  "></div>
+            </div>
+            <div class="post hover:bg-[#35343427]">
+                <div class="flex items-center">
+                    <div class="w-10 m-3">
+                        <img src="https://pbs.twimg.com/profile_images/1940579999498543104/qFqYQLjC_bigger.jpg" alt=""
+                            class="rounded-full">
+                    </div>
+                    <div class="flex justify-between w-[85%] cursor-pointer">
+                        <div>
+                            <span class="text-white font-bold">Sempire</span>
+                            <span class="text-[#999797c2] text-xl">@sempireDAO . 14h</span>
+                            <div class="text-white font-bold">UNDEAD💀</div>
+                        </div>
+                        <div class="h-[60px] w-[60px] flex items-center justify-center text-[#999797c2] ">
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg viewBox="0 0 40 40" stroke-width="1.5" fill="none" stroke="currentColor"
+                                    class="size-6  hover:text-blue-400   xmlns=" http://www.w3.org/2000/svg" ">
+                                <path
+                                d=" M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973
+                                    13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581
+                                    26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304
+                                    25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637
+                                    7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964
+                                    0.5L29.1113 5.09055V5.07631L13.2343 21.0436" fill="currentColor" id="mark"></path>
+                                    <path
+                                        d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                        fill="currentColor" id="mark"></path>
+                                </svg>
+                            </div>
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 hover:text-blue-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img ml-10 mr-4">
+                    <img src="https://pbs.twimg.com/media/GwJ8kXAWEAArxuI?format=jpg&name=small" alt=""
+                        class="rounded-2xl">
+                    <div class="million text-[#999797c2] flex justify-between my-2 items-center cursor-pointer">
+                        <div class="flex hover:text-blue-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                                </svg>
+                            </div>
+                            <span>313</span>
+                        </div>
+                        <div class="flex hover:text-green-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            <span>1.4K</span>
+                        </div>
+                        <div class="flex hover:text-pink-900 items-center">
+                            <div
+                                class="hover:bg-[rgba(255,0,122,0.1)] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                            </div>
+                            <span>18K</span>
+                        </div>
+                        <div class="flex hover:text-yellow-500 items-center">
+                            <div
+                                class="hover:bg-[#fff20030] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                                </svg>
+                            </div>
+                            <span>1M</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line bg-[#4c4c4c] w-full h-[0.5px]  "></div>
+            </div>
+            <div class="post hover:bg-[#35343427]">
+                <div class="flex items-center">
+                    <div class="w-10 m-3">
+                        <img src="https://pbs.twimg.com/profile_images/1940579999498543104/qFqYQLjC_bigger.jpg" alt=""
+                            class="rounded-full">
+                    </div>
+                    <div class="flex justify-between w-[85%] cursor-pointer">
+                        <div>
+                            <span class="text-white font-bold">Sempire</span>
+                            <span class="text-[#999797c2] text-xl">@sempireDAO . 14h</span>
+                            <div class="text-white font-bold">UNDEAD💀</div>
+                        </div>
+                        <div class="h-[60px] w-[60px] flex items-center justify-center text-[#999797c2] ">
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg viewBox="0 0 40 40" stroke-width="1.5" fill="none" stroke="currentColor"
+                                    class="size-6  hover:text-blue-400   xmlns=" http://www.w3.org/2000/svg" ">
+                                <path
+                                d=" M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973
+                                    13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581
+                                    26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304
+                                    25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637
+                                    7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964
+                                    0.5L29.1113 5.09055V5.07631L13.2343 21.0436" fill="currentColor" id="mark"></path>
+                                    <path
+                                        d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                        fill="currentColor" id="mark"></path>
+                                </svg>
+                            </div>
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 hover:text-blue-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img ml-10 mr-4">
+                    <img src="https://pbs.twimg.com/media/GwJ8kXAWEAArxuI?format=jpg&name=small" alt=""
+                        class="rounded-2xl">
+                    <div class="million text-[#999797c2] flex justify-between my-2 items-center cursor-pointer">
+                        <div class="flex hover:text-blue-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                                </svg>
+                            </div>
+                            <span>313</span>
+                        </div>
+                        <div class="flex hover:text-green-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            <span>1.4K</span>
+                        </div>
+                        <div class="flex hover:text-pink-900 items-center">
+                            <div
+                                class="hover:bg-[rgba(255,0,122,0.1)] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                            </div>
+                            <span>18K</span>
+                        </div>
+                        <div class="flex hover:text-yellow-500 items-center">
+                            <div
+                                class="hover:bg-[#fff20030] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                                </svg>
+                            </div>
+                            <span>1M</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line bg-[#4c4c4c] w-full h-[0.5px]  "></div>
+            </div>
+            <div class="post hover:bg-[#35343427]">
+                <div class="flex items-center">
+                    <div class="w-10 m-3">
+                        <img src="https://pbs.twimg.com/profile_images/1940579999498543104/qFqYQLjC_bigger.jpg" alt=""
+                            class="rounded-full">
+                    </div>
+                    <div class="flex justify-between w-[85%] cursor-pointer">
+                        <div>
+                            <span class="text-white font-bold">Shreyas Iyer</span>
+                            <span class="text-[#999797c2] text-xl">@ShreyasIyer15 . 17h</span>
+                            <div class="text-white font-bold">i think y’all would appreciate this </div>
+                        </div>
+                        <div class="h-[60px] w-[60px] flex items-center justify-center text-[#999797c2] ">
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg viewBox="0 0 40 40" stroke-width="1.5" fill="none" stroke="currentColor"
+                                    class="size-6  hover:text-blue-400   xmlns=" http://www.w3.org/2000/svg" ">
+                                <path
+                                d=" M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973
+                                    13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581
+                                    26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304
+                                    25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637
+                                    7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964
+                                    0.5L29.1113 5.09055V5.07631L13.2343 21.0436" fill="currentColor" id="mark"></path>
+                                    <path
+                                        d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                        fill="currentColor" id="mark"></path>
+                                </svg>
+                            </div>
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 hover:text-blue-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img ml-10 mr-4">
+                    <img src="https://pbs.twimg.com/media/GwJIb6mW0AA8ZmV?format=jpg&name=small" alt=""
+                        class="rounded-2xl">
+                    <div class="million text-[#999797c2] flex justify-between my-2 items-center cursor-pointer">
+                        <div class="flex hover:text-blue-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                                </svg>
+                            </div>
+                            <span>313</span>
+                        </div>
+                        <div class="flex hover:text-green-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            <span>1.4K</span>
+                        </div>
+                        <div class="flex hover:text-pink-900 items-center">
+                            <div
+                                class="hover:bg-[rgba(255,0,122,0.1)] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                            </div>
+                            <span>18K</span>
+                        </div>
+                        <div class="flex hover:text-yellow-500 items-center">
+                            <div
+                                class="hover:bg-[#fff20030] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                                </svg>
+                            </div>
+                            <span>1M</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line bg-[#4c4c4c] w-full h-[0.5px]  "></div>
+            </div>
+            <div class="post hover:bg-[#35343427]">
+                <div class="flex items-center">
+                    <div class="w-10 m-3">
+                        <img src="https://pbs.twimg.com/profile_images/1940579999498543104/qFqYQLjC_bigger.jpg" alt=""
+                            class="rounded-full">
+                    </div>
+                    <div class="flex justify-between w-[85%] cursor-pointer">
+                        <div>
+                            <span class="text-white font-bold">Shreyas Iyer</span>
+                            <span class="text-[#999797c2] text-xl">@ShreyasIyer15 . 17h</span>
+                            <div class="text-white font-bold">i think y’all would appreciate this </div>
+                        </div>
+                        <div class="h-[60px] w-[60px] flex items-center justify-center text-[#999797c2] ">
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg viewBox="0 0 40 40" stroke-width="1.5" fill="none" stroke="currentColor"
+                                    class="size-6  hover:text-blue-400   xmlns=" http://www.w3.org/2000/svg" ">
+                                <path
+                                d=" M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973
+                                    13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581
+                                    26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304
+                                    25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637
+                                    7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964
+                                    0.5L29.1113 5.09055V5.07631L13.2343 21.0436" fill="currentColor" id="mark"></path>
+                                    <path
+                                        d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"
+                                        fill="currentColor" id="mark"></path>
+                                </svg>
+                            </div>
+                            <div class="hover:bg-[#031018] rounded-full w-8 h-8 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 hover:text-blue-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img ml-10 mr-4">
+                    <img src="https://pbs.twimg.com/media/GwJIb6mW0AA8ZmV?format=jpg&name=small" alt=""
+                        class="rounded-2xl">
+                    <div class="million text-[#999797c2] flex justify-between my-2 items-center cursor-pointer">
+                        <div class="flex hover:text-blue-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                                </svg>
+                            </div>
+                            <span>313</span>
+                        </div>
+                        <div class="flex hover:text-green-400 items-center">
+                            <div
+                                class="hover:bg-[#031018] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            <span>1.4K</span>
+                        </div>
+                        <div class="flex hover:text-pink-900 items-center">
+                            <div
+                                class="hover:bg-[rgba(255,0,122,0.1)] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                            </div>
+                            <span>18K</span>
+                        </div>
+                        <div class="flex hover:text-yellow-500 items-center">
+                            <div
+                                class="hover:bg-[#fff20030] w-[40px] flex justify-center h-[40px] items-center rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                                </svg>
+                            </div>
+                            <span>1M</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line bg-[#4c4c4c] w-full h-[0.5px]  "></div>
+            </div>
+        </div>
+        <div class="third w-full text-white hidden xl:block mb-11 ">
+            <div class="sticky top-0 bg-black w-full z-40 py-1">
+                <div
+                    class="search w-2/3 my-1 mx-7 p-2 rounded-full border-[1px] border-gray-400  gap-2 flex items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <input type="search" placeholder="search">
+                </div>
+            </div>
+            <div class="top-[10vh] sticky ">
+                <div class="my-6">
+                    <div class="subscribe w-2/3 my-3 mx-7 p-4 rounded-xl border-[1px] border-gray-400 space-y-4 ">
+                        <h1 class="font-bold text-xl">Subscribe to Premium</h1>
+                        <div>Subscribe to unlock new features and if eligible, receive a share of revenue</div>
+                        <div class="button bg-blue-500 w-[110px] px-2 py-1 rounded-2xl flex justify-center ">
+                            Subscribe
+                        </div>
+                    </div>
+                    <div class="what w-2/3 my-3 mx-7 p-4 rounded-xl border-[1px] border-gray-400 space-y-4 ">
+                        <h1 class="font-bold text-xl"> What’s happening</h1>
+                        <div class="trending flex justify-between items-center hover:bg-gray-950 hover:cursor-pointer ">
+                            <div class="real ">
+                                <span class="text-xs text-slate-800">Politics · Trending</span>
+                                <h1 class="font-bold">#Real_Bulldozer_Man</h1>
+                                <span class="text-xs text-slate-800">4,603 posts</span>
+                            </div>
+                            <div class="ellipse">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="trending flex justify-between items-center hover:bg-gray-950 hover:cursor-pointer ">
+                            <div class="real">
+                                <span class="text-xs text-slate-800">Politics · Trending</span>
+                                <h1 class="font-bold">#SSMB29</h1>
+                                <span class="text-xs text-slate-800">4,603 posts</span>
+                            </div>
+                            <div class="ellipse">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="trending flex justify-between items-center hover:bg-gray-950 hover:cursor-pointer ">
+                            <div class="real">
+                                <span class="text-xs text-slate-800">Politics · Trending</span>
+                                <h1 class="font-bold">#JrNTR</h1>
+                                <span class="text-xs text-slate-800">4,603 posts</span>
+                            </div>
+                            <div class="ellipse">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="trending flex justify-between items-center hover:bg-gray-950 hover:cursor-pointer ">
+                            <div class="real">
+                                <span class="text-xs text-slate-800">Politics · Trending</span>
+                                <h1 class="font-bold">#NivinPauly</h1>
+                                <span class="text-xs text-slate-800">4,603 posts</span>
+                            </div>
+                            <div class="ellipse">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="hover:bg-gray-950 hover:cursor-pointer text-blue-500 py-2">
+                            Show more
+                        </div>
+                    </div>
+                    <div class="subscribe w-2/3 my-3 mx-7 py-2 px-4 rounded-xl border-[1px] border-gray-400 space-y-4 ">
+                        <h1 class="font-bold text-xl">Who to follow</h1>
+                        <div class="follow flex justify-between items-center hover:bg-gray-950 ">
+                            <div class="nfl flex gap-2 items-center">
+                                <div class="image w-10 h-10 ">
+                                    <img src="https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_x96.jpg"
+                                        alt="img" class="rounded-xl">
+                                </div>
+                                <div class="NFL flex-row">
+                                    <h1> NFL </h1>
+                                    <h1 class="text-gray-800"> @NFL </h1>
+                                </div>
+                            </div>
+                            <div
+                                class="Fw bg-white text-black text-[16px] w-[80px] flex justify-center h-7 rounded-full ">
+                                Follow
+                            </div>
+                        </div>
+                        <div class="follow flex justify-between items-center hover:bg-gray-950">
+                            <div class="nfl flex gap-2 items-center">
+                                <div class="image w-10 h-10 ">
+                                    <img src="https://pbs.twimg.com/profile_images/1700102447061245952/OyNepKMe_bigger.jpg"
+                                        alt="img" class="rounded-xl">
+                                </div>
+                                <div class="NFL flex-row">
+                                    <h1> BJP </h1>
+                                    <h1 class="text-gray-800"> @BJP4India </h1>
+                                </div>
+                            </div>
+                            <div
+                                class="Fw bg-white text-black text-[16px] w-[80px] flex justify-center h-7 rounded-full ">
+                                Follow
+                            </div>
+                        </div>
+                        <div class="follow flex justify-between items-center hover:bg-gray-950 ">
+                            <div class="nfl flex gap-2 items-center">
+                                <div class="image w-10 h-10 ">
+                                    <img src="https://pbs.twimg.com/profile_images/1940297798739517440/n4NiC8Cq_bigger.jpg"
+                                        alt="img" class="rounded-xl">
+                                </div>
+                                <div class="NFL flex-row">
+                                    <h1> FCBarcelona </h1>
+                                    <h1 class="text-gray-800"> @FCBarcelona </h1>
+                                </div>
+                            </div>
+                            <div
+                                class="Fw bg-white text-black text-[16px] w-[80px] flex justify-center h-7 rounded-full ">
+                                Follow
+                            </div>
+                        </div>
+                        <div class="hover:bg-gray-950 hover:cursor-pointer text-blue-500 py-2">
+                            Show more
+                        </div>
+                    </div>
+                    <div class="terms w-2/3 my-3 mx-7 py-2 px-4 text-xs text-gray-500">
+                        <span class="hover:underline hover:cursor-pointer"> Terms of Service | </span>
+                        <span class="hover:underline hover:cursor-pointer"> Privacy Policy | </span>
+                        <span class="hover:underline hover:cursor-pointer"> Cookie Policy | </span>
+                        <span class="hover:underline hover:cursor-pointer"> Accessibility | </span>
+                        <span class="hover:underline hover:cursor-pointer"> Ads info | </span>
+                        <span class="hover:underline hover:cursor-pointer "> More | </span>
+                        <span class="hover:underline hover:cursor-pointer"> © 2025 X Corp. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
